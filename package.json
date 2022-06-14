@@ -1,0 +1,24 @@
+{
+  "name": "todowithprisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^3.14.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "nodemon": "^2.0.16",
+    "prisma": "^3.14.0"
+  }
+}
